@@ -1,0 +1,20 @@
+/*订单中心*/
+.grzxbj .selfinfo .rtcont .ddxq{height: 105px;line-height: 105px;font-size: 17px;color:rgb(117,117,117);
+    border-bottom: 1px solid #ccc;padding-left: 40px;}
+.grzxbj .selfinfo .rtcont .ddxq .ddspt{width: 350px;height: 80px;margin: 11px 25px 0 0;line-height: 80px;white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+.grzxbj .selfinfo .rtcont .ddxq .ztxx ul li{display: inline-block;width: 130px;height: 60px;line-height:60px;float: left;border-left:1px solid #aaa; margin-top: 30px;text-align: center;}
+.grzxbj .selfinfo .rtcont .ddxq .ztxx ul li a{color:rgb(117,117,117);}
+.grzxbj .selfinfo .rtcont .ddxq .ztxx ul li a:hover{color:#ff6700;}
+
+/*加载更多*/
+.cart-scroll .cart-load-all,.order-scroll .order-load-all{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #9F9F9F;
+}
+.cart-scroll .cart-loading,.order-scroll .order-loading{
+    text-align: center;
+}

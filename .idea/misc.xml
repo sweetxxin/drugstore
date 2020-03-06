@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth-service-5000/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service-4000/pom.xml" />
+        <option value="$PROJECT_DIR$/portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-service/pom.xml" />
+        <option value="$PROJECT_DIR$/background-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/product-service-6000/pom.xml" />
+        <option value="$PROJECT_DIR$/resource-service-7000/pom.xml" />
+        <option value="$PROJECT_DIR$/order-service-8000/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="zuul-service" />
+      </set>
+    </option>
+  </component>
+</project>

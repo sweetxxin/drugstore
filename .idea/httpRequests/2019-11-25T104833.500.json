@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-11-25T14:48:33.872+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Type definition error: [simple type, class java.util.Collections$3]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class java.util.Collections$3 and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: org.apache.catalina.session.StandardSessionFacade[\"attributeNames\"])",
+  "path": "/oauth/login"
+}

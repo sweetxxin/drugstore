@@ -1,0 +1,39 @@
+server:
+  port: 4001
+
+spring:
+  application:
+    name: user-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/drug_store?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2b8
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+#        use_sql_comments: true
+        show_sql: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+eureka:
+  client:
+    service-url:
+      defaultZone: http://xxin:xxin@localhost:8761/eureka, http://xxin:xxin@localhost:8762/eureka
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 10000
+        readTimeout: 10000
+  compression:
+    request:
+      min-request-size: 4096
+
+#logging:
+#  level:
+#    org.hibernate.type.descriptor.sql.BasicBinder: trace

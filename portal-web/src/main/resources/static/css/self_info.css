@@ -1,0 +1,45 @@
+/*footer*/
+.center{margin: 0 auto;}
+footer{width: 100%;height: 120px;line-height: 30px;text-align: center;font-size: 12px;background: rgb(250,250,250);padding:30px 0;}
+
+/*个人中心*/
+.grzxbj{width: 100%;height:auto;background: rgb(245,245,245);padding-bottom: 20px;padding-top: 20px;}
+.grzxbj .selfinfo{width: 1226px;}
+.grzxbj .selfinfo .lfnav{width: 234px;height: 500px;background: #fff;}
+.grzxbj .selfinfo .lfnav .ddzx{width: 234px;height: 40px;line-height: 40px;font-size: 19px; margin:30px 20px 10px 40px;color:rgb(51,51,51);}
+.grzxbj .selfinfo .lfnav .subddzx ul li{display: block;width: 194px;height: 40px;line-height: 40px;padding-left: 40px;}
+.grzxbj .selfinfo .lfnav .subddzx ul li a{color:rgb(117,117,117);}
+.grzxbj .selfinfo .lfnav .subddzx ul li a:hover{color:rgb(51,51,51);}
+.grzxbj .selfinfo .rtcont{width: 978px;height: 500px;background: #fff;}
+.grzxbj .selfinfo .rtcont .ddzxbt{width: 938px;height: 60px;line-height: 60px;font-size: 22px;font-weight:bold;color:rgb(117,117,117);padding-left: 40px;border-bottom: 1px solid #ccc;}
+.grzxbj .selfinfo .rtcont .grzlbt{width:938px;height: 60px;line-height: 60px;font-size: 20px;color:rgb(117,117,117);}
+.grzxbj .selfinfo .rtcont .subgrzl{height: 45px;line-height: 45px;width: 900px;background: rgb(253,253,253);border:1px solid #aaa;margin-top: 10px;margin-bottom: 10px;border-radius: 3px;position: relative;}
+.grzxbj .selfinfo .rtcont .subgrzl span:nth-of-type(1){display: inline-block;font-size: 15px;font-weight: bold;color:rgb(117,117,117);width: 70px;height: 45px;line-height: 45px;padding-left: 20px;position: absolute;}
+.grzxbj .selfinfo .rtcont .subgrzl span:nth-of-type(2){display: inline-block;font-size: 15px;color:rgb(117,117,117);width: 480px;height: 45px;line-height: 45px;padding-left: 120px;
+}
+.grzxbj .selfinfo .rtcont .subgrzl span:nth-of-type(3){display: inline-block;font-size: 15px;width: 160px;height: 45px;line-height: 45px;text-align: right;
+    position: absolute;}
+.grzxbj .selfinfo .rtcont .subgrzl input{
+    width: 100%;
+    font-size: 15px;
+    height: 40px;
+    border: 0px;
+    text-indent: 10px;
+}
+.grzxbj .selfinfo .rtcont .subgrzl span a{color:teal; }
+.grzxbj .selfinfo .rtcont .subgrzl span a:hover{color:#ff6700; }
+
+.update-btn{
+    height: 30px;
+    width: 100px;
+    border: 0px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 19px;
+    background: #00c65d;
+    color: white;
+    cursor: pointer;
+}
+.update-btn:hover{
+    background: #1E9FFF;
+}

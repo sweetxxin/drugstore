@@ -1,0 +1,16 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: resource-service
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://xxin:xxin@localhost:8761/eureka, http://xxin:xxin@localhost:8762/eureka
+
+

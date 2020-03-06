@@ -1,0 +1,149 @@
+/*banner_x*/
+.banner_x {width: 100%;/*1226px*/;height: 100px;}
+.banner_x .logo{
+    background: url('/resource/static/img/logo.png')no-repeat center center;
+    width: 120px;
+    height: 100px;
+    margin-left: 100px;
+    background-size: 100% 100%;}
+.banner_x .ad_top{position:relative;width: 180px;height: 100px;background: #F9F9F9;}
+.banner_x .nav ul li{float: left;height: 100px;line-height: 100px;}
+.banner_x .nav ul li a{display:inline-block;color: #000;font-size: 16px;padding: 0 10px;}
+.banner_x .nav ul li a:hover{color: rgb(255,103,0); }
+.banner_x .search{height:100px;margin-left: 50px}
+.banner_x .search .text{width: 450px;height:40px;line-height: 40px;font-size: 12px;margin-top: 25px;border:2px solid #00c65d!important;}
+.banner_x .search .text:hover{border-color: #ff6700;}
+.banner_x .search .text .shuru{border: none;width:100%;height: 40px;
+    outline: none;
+    font-size: 18px;
+    text-indent: 10px;}
+.banner_x .search .submit{width: 100px;height:40px;line-height: 40px;text-align:center;font-size: 12px;margin-top: 25px;border:2px solid #00c65d!important;}
+.banner_x .search .submit .sousuo{letter-spacing:3px;text-align:center;width: 100px;height:40px;border: none;background: #00c65d!important;cursor:pointer;color: white;
+    font-size: 18px;}
+.banner_x .search .submit:hover{border-color: #ff6700;color:#ff6700;}
+
+/*我的购物车*/
+.cart-scroll{
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.banner_x .wdgwc{height: 100px;line-height: 100px;font-weight:bold;font-size: 24px;}
+.banner_x .wxts{height: 90px;line-height: 105px;font-size: 12px;color:#777;}
+.banner_x .dlzc{height: 100px;line-height: 100px;}
+.banner_x .dlzc ul li{float: left;font-size: 12px;}
+.banner_x .dlzc ul li a{display:block;padding:0 8px;font-size: 12px;font-family: Times New Roman;color: #777;}
+.banner_x .dlzc ul li a:hover{color:#ff6700; }
+.xiantiao{width: 100%;height: 2px;background:#ff6700; }
+.off{
+    font-size: 13px;
+    width: 50px;
+    position: absolute;
+    right: 120px;
+    top: 52px;
+    color: darkred;
+}
+.del{
+    font-size: 25px;
+    position: absolute;
+    right: 80px;
+    top: 47px;
+}
+
+.clearCart{
+    height: 90px;
+    line-height: 90px;
+    margin-right: 70px;
+    color: #ff6700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.del:hover{
+    color: red;
+}
+.clearCart:hover {
+    color:red;
+}
+.delCart:hover {
+    color:red;
+}
+/*购物车详单*/
+.gwcxqbj{width: 100%;background: rgb(245,245,245);padding-bottom: 20px;}
+.gwcxqbj .gwcxd{background: #fff;width: 1226px;height: auto;padding-top: 30px;margin-bottom: 50px}
+.gwcxqbj .gwcxd .top2{width:1226px;height: 70px;}
+.gwcxqbj .gwcxd .top2 .sub_top{width: 100px;height: 70px;line-height:36px;margin-right: 0px;margin-top:0px;margin-left: 30px;}
+.gwcxqbj .gwcxd .top2 .sub_top:nth-of-type(2){margin-left: 100px;}
+.gwcxqbj .gwcxd .top2 .sub_top:nth-of-type(3){margin-left: 300px;}
+.gwcxqbj .gwcxd .top2 .sub_top:nth-of-type(4){margin-left: 60px;}
+.gwcxqbj .gwcxd .top2 .sub_top:nth-of-type(5){margin-left: 60px;}
+.gwcxqbj .gwcxd .top2 .sub_top .quanxuan{width:18px;height:18px;border:1px solid #ccc;background: none;vertical-align: middle;}
+.gwcxqbj .gwcxd .content2{width:1226px;height: 120px;border-bottom: 1px solid #ccc;position: relative;}
+.gwcxqbj .gwcxd .content2 .sub_content{width:50px;height: 120px;line-height:120px;margin-right: 0px;}
+.gwcxqbj .gwcxd .sub_content .quanxuan{width:18px;height:18px;border:1px solid #ccc;background: none;}
+.gwcxqbj .gwcxd .content2 .sub_content img{vertical-align: middle;width: 80px;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(1){margin-left: 30px;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(2){margin-left: 35px;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(3){
+    margin-left: 55px;
+    width: 330px;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    height: 50px;
+    margin-top: 45px;
+}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(3):hover{
+    color:#ff6700;
+    cursor: pointer;
+}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(4){margin-left: 85px;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(5){margin-left: 90px;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(6){margin-left: 120px;
+    color: #ff6700;
+    font-size: 20px;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(7){width:30px;margin-left: 135px;font-size: 25px;}
+.gwcxqbj .gwcxd .content2 .sub_content .shuliang{width: 70px;height: 35px;border:2px solid #ccc;text-align: center;font-size:16px;color:#ff6700;}
+.gwcxqbj .gwcxd .content2 .sub_content a{display: block;width: 20px;height: 20px;border-radius: 10px;color:#000;}
+.gwcxqbj .gwcxd .content2 .sub_content a:hover{color:#ff6700;}
+
+.getDetail{
+    width: 100% !important;
+    height: 100% !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+}
+/*结算单*/
+.jiesuandan{
+    width: 97%;
+    height: 50px;
+    background: #fff;
+    position: fixed;
+    bottom: 5px;
+    left: 1.5%;
+}
+.jiesuandan .tishi{width: 400px;height: 50px;line-height: 50px;}
+.jiesuandan .tishi ul li{float: left; font-size: 14px;display: inline-block;padding:0 10px;color:#666;}
+.jiesuandan .tishi ul li a{color:#666;}
+.jiesuandan .tishi ul li a:hover{color:#ff6700;}
+.jiesuandan .tishi ul li span{display:inline-block;color:#ff6700;margin:0 4px;}
+.jiesuandan .jiesuan{width: 500px;height: 50px;line-height: 50px;font-size: 14px;color:#ff6700;}
+.jiesuandan .jiesuan .jiesuanjiage span{font-size: 24px;font-weight: bold;}
+.jiesuandan .jiesuan .jsanniu .jsan{width: 200px;height: 50px;color:#fff;background:rgb(255,103,0); font-size: 20px;border:none;cursor:pointer;}
+.jiesuandan .jiesuan .jsanniu .jsan:hover{background: rgb(242,88,7);}
+
+/*加载更多*/
+.cart-scroll .cart-load-all,.order-scroll .order-load-all{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #9F9F9F;
+}
+.cart-scroll .cart-loading,.order-scroll .order-loading{
+    text-align: center;
+}

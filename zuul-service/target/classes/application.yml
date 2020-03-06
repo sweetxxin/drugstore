@@ -1,0 +1,83 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: zuul-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/drug_store?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+    database: 2
+  session:
+    store-type: redis
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://xxin:xxin@localhost:8761/eureka, http://xxin:xxin@localhost:8762/eureka
+
+zuul:
+  ignoredServices: '*' #忽略所有未配置的service
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+  routes:
+    web:
+      path: /web/**
+      serviceId: portal-service
+      sensitiveHeaders: "*"
+    oauth:
+      path: /oauth/**
+      serviceId: oauth-service
+      sensitiveHeaders: "*"
+    admin:
+      path: /admin/**
+      serviceId: admin-service
+      sensitiveHeaders: "*"
+    resource:
+      path: /resource/**
+      serviceId: resource-service
+      sensitiveHeaders: "*"
+    user:
+      path: /user/**
+      serviceId: user-service
+      sensitiveHeaders: "*"
+    product:
+      path: /product/**
+      serviceId: product-service
+      sensitiveHeaders: "*"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+
+filter:
+  include:
+    - /web/page/**
+    - /admin/**
+  exclude:
+    - /web/product/**
+    - /web/page/index
+    - /web/page/product/**
+    - /admin/static/**
+    - /web/static/**
+    - /admin/product/**

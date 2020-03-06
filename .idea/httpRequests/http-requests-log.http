@@ -1,0 +1,122 @@
+POST http://localhost:4001/user/address/save?=
+Accept: */*
+Cache-Control: no-cache
+
+    var newAddress = {         "receiver":null,         "mobile":null,         "province":null,         "city":null,         "town":null,         "detail":null,         "isDefault":null,         "mainId":null,         "country":null     };
+
+<> 2020-01-09T112839.415.json
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T113701.200.txt
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T113525.200.txt
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T112452.200.txt
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T112048.200.txt
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T111210.200.txt
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T110408.200.txt
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T105537.200.txt
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T105309.500.json
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T105142.500.json
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T104833.500.json
+
+###
+
+POST http://localhost:8080/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T103514.500.json
+
+###
+
+POST http://localhost:5001/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T101936.200.json
+
+###
+
+POST http://localhost:5001/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T101935.200.json
+
+###
+
+POST http://localhost:5001/oauth/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-25T101930.200.json
+
+###
+

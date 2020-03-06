@@ -1,0 +1,39 @@
+/*收货地址*/
+.selfinfo .rtcont .address-scroll {
+    height: 420px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+.selfinfo .rtcont  .address-scroll .address{
+    width:  25%;
+    padding: 10px 20px;
+
+    border: 1px solid #b0b0b0;
+    margin: 10px;
+    color: #757575;
+    display: inline-block;
+    cursor: pointer;
+}
+.selfinfo .rtcont  .address-scroll .address:hover{
+    border: 1px solid #ff6700;
+}
+.selfinfo .rtcont  .address-scroll .address:hover .address-update a{
+    color: #ff6700;
+
+}
+.selfinfo .rtcont  .address-scroll .address .address-update a:hover{
+    color: #f30213;
+    text-decoration: underline;
+}
+.selfinfo .rtcont  .address-scroll .address .address-update{
+    text-align: right;
+    margin-top: 20px;
+    position: relative;
+}
+.selfinfo .rtcont  .address-scroll .address .address-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2F4056;
+}

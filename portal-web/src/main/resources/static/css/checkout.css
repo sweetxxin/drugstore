@@ -1,0 +1,98 @@
+/*订单确认*/
+.cart-scroll::-webkit-scrollbar {display:none}
+.order-scroll::-webkit-scrollbar {display:none}
+.address-scroll::-webkit-scrollbar {display:none}
+.gwcxqbj .gwcxd .top2{
+    border-bottom: 1px solid #ccc;
+}
+.gwcxd .top2 .delivery{
+    display: flex;
+}
+.gwcxd .top2 .delivery .delivery-logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 10px;
+    background: url("/resource/static/img/car.png")no-repeat center center;
+    background-size: 100%;
+}
+.gwcxd .top2 .delivery .delivery-title{
+    font-weight: bold;
+}
+.gwcxd .top2 .delivery .delivery-content{
+    margin-left: 60px;
+    cursor: pointer;
+    position: relative;
+    width: 800px;
+}
+.gwcxd .top2 .delivery .delivery-more{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background: url("/resource/static/img/down-more.png")no-repeat center center;
+    background-size: 100%;
+    cursor: pointer;
+}
+.popAddress{
+    position: absolute;
+    height: 300px;
+    border: 0.1px solid #9F9F9F;
+    background: white;
+    width: 800px;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+.pop-delivery-content{
+    border-top: 1px dashed #b0b0b0;
+    padding: 10px;
+    position: relative;
+}
+.isDefault{
+    position: absolute;
+    right: 20px;
+    color: red;
+    bottom: 10px;
+    width: 100px;
+    text-align: right;
+    height: 20px;
+}
+.default{
+    position: absolute;
+    right: 20px;
+    color: green;
+    bottom: 10px;
+}
+.pop-delivery-content:hover{
+    background: #e9e6e6;
+}
+.pop-add-address{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    background: #ff6700;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+}
+.isDefault:hover{
+    text-decoration: underline;
+}
+.add-new-address{
+    width: 500px;
+    height: 70px;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.add-new-address:hover{
+    color:#1E9FFF;
+}
+.add-new-address img{
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+}

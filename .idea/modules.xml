@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/background-admin/background-admin.iml" filepath="$PROJECT_DIR$/background-admin/background-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drugstore.iml" filepath="$PROJECT_DIR$/drugstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-service-5000/oauth-service-5000.iml" filepath="$PROJECT_DIR$/oauth-service-5000/oauth-service-5000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service-8000/order-service-8000.iml" filepath="$PROJECT_DIR$/order-service-8000/order-service-8000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/portal-web/portal-web.iml" filepath="$PROJECT_DIR$/portal-web/portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service-6000/product-service-6000.iml" filepath="$PROJECT_DIR$/product-service-6000/product-service-6000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-service-7000/resource-service-7000.iml" filepath="$PROJECT_DIR$/resource-service-7000/resource-service-7000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service-4000/user-service-4000.iml" filepath="$PROJECT_DIR$/user-service-4000/user-service-4000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-service/zuul-service.iml" filepath="$PROJECT_DIR$/zuul-service/zuul-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-01-09 23:28:39",
+  "status": 415,
+  "error": "Unsupported Media Type",
+  "message": "Content type '*/*;charset=UTF-8' not supported",
+  "path": "/user/address/save"
+}

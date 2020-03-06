@@ -1,0 +1,73 @@
+.cart-scroll::-webkit-scrollbar {display:none}
+.order-scroll::-webkit-scrollbar {display:none}
+.address-scroll::-webkit-scrollbar {display:none}
+*{margin: 0;padding: 0;text-decoration: none;list-style-type: none;font-family: Times New Roman;}
+
+img{border:none;}
+a{border:none;text-decoration: none;color:#000;cursor: pointer}
+.border{border:1px solid red;}
+.center{margin: 0 auto;}
+.w{width: 1226px;margin: 0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear:both;}
+.mt10{margin-top: 10px;}
+.ml20{margin-left: 20px;}
+.ml40{margin-left: 40px;}
+.mr40{margin-right: 40px;}
+.mb20{margin-bottom: 20px;}
+.border2{border:2px solid #ff6700;}
+.ft20{font-size: 20px;}
+.ftbc{color: #ff6700;font-weight: bold;}
+.pr{padding-right: 40px;}
+
+.h3{font-size: 22px;font-weight: bold;}
+
+.top .left .home img,.top .left .product-all img{
+    width: 20px;margin-left: 15px;vertical-align: text-bottom;
+}
+.top .left .home a:hover,.top .left .product-all a:hover{
+    color:#f30213 ;
+}
+.top .left li{
+    float: left;
+}
+header{width: 100%;height: 35px;background: #f2f2f2}
+header .top{height: 35px;line-height: 35px;}
+header .top .left ul li{float: left;font-size: 12px;color: #ccc;}
+header .top .left ul li a{display:block;padding:0 8px;font-size: 12px;font-family: Times New Roman;color: #b0b0b0;}
+header .top .left ul li a:hover{color:#fff;}
+header .top .right ul li{float: left;font-size: 12px;color: #999;}
+header .top .right ul li a{display:block;padding:0 8px;font-size: 12px;font-family: Times New Roman;color: #999;}
+header .top .right ul li a:hover{color:#f30213;}
+header .top .right .gouwuche a{color:#fff;}
+header .top .right .gouwuche{margin:0 20px;background: #424242;width: 120px;text-align: center;font-size: 12px;cursor:pointer;background: #ff6700;color: #fff;}
+
+header .top .right .gouwuche:hover{color:#000;background: #666;}
+
+.top .left .home img,.top .left .product-all img{
+    width: 20px;margin-left: 15px;vertical-align: text-bottom;
+}
+.top .left a{
+    color: #454343;
+}
+
+.top .left .home a:hover,.top .left .product-all a:hover{
+    color:#f30213 ;
+}
+.top .left li{
+    float: left;
+}
+.countInform{
+    display: block;
+    position: absolute;
+    right: -5px;
+    color: white;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 15px;
+}

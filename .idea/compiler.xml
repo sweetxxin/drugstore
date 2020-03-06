@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="background-admin" />
+        <module name="common" />
+        <module name="eureka-server" />
+        <module name="oauth-service-5000" />
+        <module name="order-service-8000" />
+        <module name="portal-web" />
+        <module name="product-service-6000" />
+        <module name="resource-service-7000" />
+        <module name="user-service-4000" />
+        <module name="zuul-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="background-admin" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="drugstore" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="oauth-service-5000" target="1.8" />
+      <module name="order-service-8000" target="1.8" />
+      <module name="portal-web" target="1.8" />
+      <module name="product-service-6000" target="1.8" />
+      <module name="resource-service-7000" target="1.8" />
+      <module name="user-service-4000" target="1.8" />
+      <module name="zuul-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
