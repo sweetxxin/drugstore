@@ -17,7 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-boot.version>2.1.5.RELEASE</spring-boot.version>
+        <spring-boot.version>2.5.12</spring-boot.version>
         <redis.version>2.9.0</redis.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <eureka-server.version>2.1.2.RELEASE</eureka-server.version>
